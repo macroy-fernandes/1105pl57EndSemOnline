@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -5,7 +6,7 @@ public class Team {
 
 	private Person owner;
 	private Person projectmanager;
-	List <Person> teamMembers;
+	List <Person> teamMembers = new ArrayList<Person>();
 	private int size;
 	private int velocity;
 

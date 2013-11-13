@@ -24,7 +24,7 @@ public class TeamTest {
 		team1 = new Team(5,20);
 		team1.setOwner(person);
 		team1.setProjectManager(person1);
-		//team1.setTeamMember(person2);
+		team1.setTeamMember(person2);
 		
 	}
 
