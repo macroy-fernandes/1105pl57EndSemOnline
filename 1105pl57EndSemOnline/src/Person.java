@@ -5,6 +5,7 @@ public class Person {
 	private int age;
 	private String gender;
 	private Role role;
+	private Task tasktobeDone;
 
 	public Person(String name, int age, String gender, Role role) {
 		// TODO Auto-generated constructor stub
@@ -22,6 +23,11 @@ public class Person {
 	public Role getRole() {
 		// TODO Auto-generated method stub
 		return this.role;
+	}
+
+	public void assignTask(Task task) {
+		// TODO Auto-generated method stub
+		this.tasktobeDone = task;
 	}
 	
 

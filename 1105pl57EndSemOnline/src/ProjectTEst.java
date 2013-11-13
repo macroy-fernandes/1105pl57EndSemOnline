@@ -53,6 +53,8 @@ public class ProjectTEst {
 		project.assignTeam(team1);
 		project.addBacklog(userstory);
 		project.addSprint(sprint1);
+		
+		project.getTeam().assignTask(person2,task);
 	}
 
 	@Test

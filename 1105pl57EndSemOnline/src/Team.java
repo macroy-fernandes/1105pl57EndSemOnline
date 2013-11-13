@@ -45,4 +45,15 @@ public class Team {
 		this.teamMembers.add(person2);
 	}
 
+	public void assignTask(Person member, Task task) {
+		// TODO Auto-generated method stub
+		
+		for(Person m : teamMembers)
+		{
+			if(m.equals(member))
+				m.assignTask(task);
+		}
+		
+	}
+
 }
