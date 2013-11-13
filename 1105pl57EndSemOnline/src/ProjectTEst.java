@@ -19,7 +19,7 @@ public class ProjectTEst {
 	public void setUp() throws Exception {
 		project = new Project("Student Attendance System","JSP");
 		
-		sprint1 = new Sprint();
+		sprint1 = new Sprint(5);
 		
 		userstory = new UserStory(10,8);
 		userstory1 = new UserStory(8,5);
@@ -51,10 +51,18 @@ public class ProjectTEst {
 		
 		
 		project.assignTeam(team1);
+		project.addBacklog(userstory);
+		project.addSprint(sprint1);
 	}
 
 	@Test
 	public void test() {
+		
+		
+		assertEquals("Student Attendance System",project.getName());
+		assertEquals("JSP",project.getTechUsed());
+		
+		assertTrue(team1.equals(project.getTeam()));
 		
 	}
 

@@ -17,7 +17,7 @@ public class UserStory {
 
 	public void addTask(Task task) {
 		// TODO Auto-generated method stub
-		this.addTask(task);
+		this.tasks.add(task);
 	}
 
 }
