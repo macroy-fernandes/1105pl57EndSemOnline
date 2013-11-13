@@ -63,8 +63,9 @@ public class ProjectTEst {
 		
 		assertEquals("Student Attendance System",project.getName());
 		assertEquals("JSP",project.getTechUsed());
-		
+		assertTrue(task.equals(person2.getTask()));
 		assertTrue(team1.equals(project.getTeam()));
+		assertTrue(project.equals(team1.getProject()));
 		
 	}
 

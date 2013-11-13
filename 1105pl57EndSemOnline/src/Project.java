@@ -18,7 +18,7 @@ public class Project {
 	public void assignTeam(Team team1) {
 		// TODO Auto-generated method stub
 		this.team = team1;
-		
+		this.team.assignProject(this);
 	}
 
 	public void addBacklog(UserStory userstory) {

@@ -9,6 +9,7 @@ public class Team {
 	List <Person> teamMembers = new ArrayList<Person>();
 	private int size;
 	private int velocity;
+	private Project project;
 
 	
 
@@ -54,6 +55,16 @@ public class Team {
 				m.assignTask(task);
 		}
 		
+	}
+
+	public void assignProject(Project project) {
+		// TODO Auto-generated method stub
+		this.project = project;
+	}
+
+	public Project getProject() {
+		// TODO Auto-generated method stub
+		return this.project;
 	}
 
 }

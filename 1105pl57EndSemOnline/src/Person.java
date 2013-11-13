@@ -29,6 +29,11 @@ public class Person {
 		// TODO Auto-generated method stub
 		this.tasktobeDone = task;
 	}
+
+	public Task getTask() {
+		// TODO Auto-generated method stub
+		return this.tasktobeDone;
+	}
 	
 
 }

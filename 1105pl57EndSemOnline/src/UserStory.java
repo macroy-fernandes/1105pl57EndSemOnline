@@ -18,6 +18,12 @@ public class UserStory {
 	public void addTask(Task task) {
 		// TODO Auto-generated method stub
 		this.tasks.add(task);
+		task.addStory(this);
+	}
+
+	public int getPoints() {
+		// TODO Auto-generated method stub
+		return this.storyPoint;
 	}
 
 }
