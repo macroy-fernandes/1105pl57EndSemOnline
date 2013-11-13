@@ -36,14 +36,14 @@ public class Team {
 		
 	}
 
-	public void setProjectManager(Person person1) {
+	public void setProjectManager(Person manager) {
 		// TODO Auto-generated method stub
-		this.projectmanager = person1;
+		this.projectmanager = manager;
 	}
 
-	public void setTeamMember(Person person2) {
+	public void setTeamMember(Person member) {
 		// TODO Auto-generated method stub
-		this.teamMembers.add(person2);
+		this.teamMembers.add(member);
 	}
 
 	public void assignTask(Person member, Task task) {
